@@ -15,7 +15,7 @@ export const PasswordForget = () => {
     return (
         <p className="mt-10 text-center text-sm text-gray-500">
             Vous n'avez pas de compte ?            
-            <a href="#" className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500"> Créer en un ici</a>
+            <a href="/api/forgetpassword" className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500"> Créer en un ici</a>
         </p>
     )
 }
